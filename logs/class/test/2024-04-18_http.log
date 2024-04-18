@@ -1,0 +1,500 @@
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:80
+
+-- res:
+HTTP/1.1 400 Bad Request
+Content-Type: text/html; charset=us-ascii
+Server: Microsoft-HTTPAPI/2.0
+Date: Thu, 18 Apr 2024 14:18:40 GMT
+Connection: close
+Content-Length: 311
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Bad Request</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Bad Request</h2>
+<hr><p>HTTP Error 400. The request is badly formed.</p>
+</BODY></HTML>
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:80
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sat, 13 Apr 2024 06:23:14 GMT
+Accept-Ranges: bytes
+ETag: "267af7106b8dda1:0"
+Server: Microsoft-IIS/10.0
+Date: Thu, 18 Apr 2024 14:18:42 GMT
+Content-Length: 696
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>IIS Windows</title>
+<style type="text/css">
+<!--
+body {
+	color:#000000;
+	background-color:#0072C6;
+	margin:0;
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}
+
+a img {
+	border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id="container">
+<a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="iisstart.png" alt="IIS" width="960" height="600" /></a>
+</div>
+</body>
+</html>
+-- req:
+GET / HTTP/1.1
+Host: localhost:80
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sat, 13 Apr 2024 06:23:14 GMT
+Accept-Ranges: bytes
+ETag: "267af7106b8dda1:0"
+Server: Microsoft-IIS/10.0
+Date: Thu, 18 Apr 2024 14:22:34 GMT
+Content-Length: 696
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>IIS Windows</title>
+<style type="text/css">
+<!--
+body {
+	color:#000000;
+	background-color:#0072C6;
+	margin:0;
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}
+
+a img {
+	border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id="container">
+<a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="iisstart.png" alt="IIS" width="960" height="600" /></a>
+</div>
+</body>
+</html>
+-- req:
+GET / HTTP/1.1
+Host: localhost:80
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sat, 13 Apr 2024 06:23:14 GMT
+Accept-Ranges: bytes
+ETag: "267af7106b8dda1:0"
+Server: Microsoft-IIS/10.0
+Date: Thu, 18 Apr 2024 14:23:10 GMT
+Content-Length: 696
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>IIS Windows</title>
+<style type="text/css">
+<!--
+body {
+	color:#000000;
+	background-color:#0072C6;
+	margin:0;
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}
+
+a img {
+	border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id="container">
+<a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="iisstart.png" alt="IIS" width="960" height="600" /></a>
+</div>
+</body>
+</html>
+-- req:
+GET / HTTP/1.1
+Host: localhost:80
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sat, 13 Apr 2024 06:23:14 GMT
+Accept-Ranges: bytes
+ETag: "267af7106b8dda1:0"
+Server: Microsoft-IIS/10.0
+Date: Thu, 18 Apr 2024 14:24:22 GMT
+Content-Length: 696
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>IIS Windows</title>
+<style type="text/css">
+<!--
+body {
+	color:#000000;
+	background-color:#0072C6;
+	margin:0;
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}
+
+a img {
+	border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id="container">
+<a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="iisstart.png" alt="IIS" width="960" height="600" /></a>
+</div>
+</body>
+</html>
+-- req:
+GET / HTTP/1.1
+Host: localhost:80
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sat, 13 Apr 2024 06:23:14 GMT
+Accept-Ranges: bytes
+ETag: "267af7106b8dda1:0"
+Server: Microsoft-IIS/10.0
+Date: Thu, 18 Apr 2024 14:24:39 GMT
+Content-Length: 696
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>IIS Windows</title>
+<style type="text/css">
+<!--
+body {
+	color:#000000;
+	background-color:#0072C6;
+	margin:0;
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}
+
+a img {
+	border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id="container">
+<a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="iisstart.png" alt="IIS" width="960" height="600" /></a>
+</div>
+</body>
+</html>
+-- req:
+GET / HTTP/1.1
+Host: localhost:80
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sat, 13 Apr 2024 06:23:14 GMT
+Accept-Ranges: bytes
+ETag: "267af7106b8dda1:0"
+Server: Microsoft-IIS/10.0
+Date: Thu, 18 Apr 2024 14:24:44 GMT
+Content-Length: 696
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>IIS Windows</title>
+<style type="text/css">
+<!--
+body {
+	color:#000000;
+	background-color:#0072C6;
+	margin:0;
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}
+
+a img {
+	border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id="container">
+<a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="iisstart.png" alt="IIS" width="960" height="600" /></a>
+</div>
+</body>
+</html>
+-- req:
+GET / HTTP/1.1
+Host: localhost:80
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sat, 13 Apr 2024 06:23:14 GMT
+Accept-Ranges: bytes
+ETag: "267af7106b8dda1:0"
+Server: Microsoft-IIS/10.0
+Date: Thu, 18 Apr 2024 14:24:46 GMT
+Content-Length: 696
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>IIS Windows</title>
+<style type="text/css">
+<!--
+body {
+	color:#000000;
+	background-color:#0072C6;
+	margin:0;
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}
+
+a img {
+	border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id="container">
+<a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="iisstart.png" alt="IIS" width="960" height="600" /></a>
+</div>
+</body>
+</html>
+-- req:
+GET / HTTP/1.1
+Host: localhost:80
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sat, 13 Apr 2024 06:23:14 GMT
+Accept-Ranges: bytes
+ETag: "267af7106b8dda1:0"
+Server: Microsoft-IIS/10.0
+Date: Thu, 18 Apr 2024 14:24:46 GMT
+Content-Length: 696
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>IIS Windows</title>
+<style type="text/css">
+<!--
+body {
+	color:#000000;
+	background-color:#0072C6;
+	margin:0;
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}
+
+a img {
+	border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id="container">
+<a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="iisstart.png" alt="IIS" width="960" height="600" /></a>
+</div>
+</body>
+</html>
+-- req:
+GET / HTTP/1.1
+Host: localhost:80
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sat, 13 Apr 2024 06:23:14 GMT
+Accept-Ranges: bytes
+ETag: "267af7106b8dda1:0"
+Server: Microsoft-IIS/10.0
+Date: Thu, 18 Apr 2024 14:24:47 GMT
+Content-Length: 696
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>IIS Windows</title>
+<style type="text/css">
+<!--
+body {
+	color:#000000;
+	background-color:#0072C6;
+	margin:0;
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}
+
+a img {
+	border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id="container">
+<a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="iisstart.png" alt="IIS" width="960" height="600" /></a>
+</div>
+</body>
+</html>
+-- req:
+GET / HTTP/1.1
+Host: localhost:80
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sat, 13 Apr 2024 06:23:14 GMT
+Accept-Ranges: bytes
+ETag: "267af7106b8dda1:0"
+Server: Microsoft-IIS/10.0
+Date: Thu, 18 Apr 2024 14:24:47 GMT
+Content-Length: 696
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>IIS Windows</title>
+<style type="text/css">
+<!--
+body {
+	color:#000000;
+	background-color:#0072C6;
+	margin:0;
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}
+
+a img {
+	border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id="container">
+<a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="iisstart.png" alt="IIS" width="960" height="600" /></a>
+</div>
+</body>
+</html>

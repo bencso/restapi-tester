@@ -1,0 +1,72 @@
+from datetime import datetime, timedelta
+from flask import Flask, request, render_template, redirect, make_response
+from utils.nc import get_response_for
+from utils.other import log, get_user_by_token, get_token_for_user
+
+
+app = Flask(__name__)
+target_host = {
+    "hostname" : "localhost",
+    "port": "80"
+}
+@app.route("/", methods=["GET", "POST"])
+def root():
+    token = request.cookies.get("token")
+    
+    if not token:
+        return redirect("login")
+    
+    u_name, cl = "test", "class"
+
+    if request.method == "POST":
+        req = request.form["req"]
+        port = req.split('\n')[1][5:].strip().split(":")[1]
+        res = get_response_for(port,req)
+        target_host_updated = {
+            "hostname" : "localhost",
+            "port": req.split('\n')[1][5:].strip().split(":")[1]
+        }
+        target_host.update(target_host_updated)
+        log(cl, u_name, req, res["raw"])
+
+        return render_template("http.html", data={**target_host,
+                                                  **res,
+                                                    "req": req,
+                                                    "user": u_name,
+                                                    "cl": cl})
+                                                    
+    return render_template("http.html", data={**target_host,
+                                                "req" : "",
+                                                "raw": "",
+                                                "r_line": "",
+                                                "header": "",
+                                                "body": "",
+                                                "user": u_name,
+                                                "cl": cl})
+
+@app.route("/login", methods=["GET", "POST"])
+def login():
+    token = request.cookies.get("token")
+
+    if get_user_by_token(token):
+        return redirect("/")
+    
+    if request.method == "POST":
+        username = request.form["username"]
+        password = request.form["password"]
+
+        if username and password:
+            token = get_token_for_user(username, password)
+            if token:
+                res = make_response(redirect("/"))
+                res.set_cookie(
+                    "token",
+                    token,
+                    expires=datetime.now() + timedelta(weeks=1))
+                    
+                return res
+
+    return app.send_static_file("login.html")
+
+if __name__ == "__main__":
+    app.run(debug=True)

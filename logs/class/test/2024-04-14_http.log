@@ -1,0 +1,2568 @@
+
+-- req:
+GET / HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sat, 13 Apr 2024 06:23:14 GMT
+Accept-Ranges: bytes
+ETag: "267af7106b8dda1:0"
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:17:17 GMT
+Content-Length: 696
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>IIS Windows</title>
+<style type="text/css">
+<!--
+body {
+	color:#000000;
+	background-color:#0072C6;
+	margin:0;
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}
+
+a img {
+	border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id="container">
+<a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="iisstart.png" alt="IIS" width="960" height="600" /></a>
+</div>
+</body>
+</html>
+-- req:
+GET / HTTP/1.1
+Host: localhost
+
+
+-- res:
+HTTP/1.1 400 Bad Request
+Content-Type: text/html; charset=us-ascii
+Server: Microsoft-HTTPAPI/2.0
+Date: Sun, 14 Apr 2024 19:17:20 GMT
+Connection: close
+Content-Length: 311
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Bad Request</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Bad Request</h2>
+<hr><p>HTTP Error 400. The request is badly formed.</p>
+</BODY></HTML>
+
+-- req:
+GET / HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sat, 13 Apr 2024 06:23:14 GMT
+Accept-Ranges: bytes
+ETag: "267af7106b8dda1:0"
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:17:21 GMT
+Content-Length: 696
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>IIS Windows</title>
+<style type="text/css">
+<!--
+body {
+	color:#000000;
+	background-color:#0072C6;
+	margin:0;
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}
+
+a img {
+	border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id="container">
+<a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="iisstart.png" alt="IIS" width="960" height="600" /></a>
+</div>
+</body>
+</html>
+-- req:
+GET /err HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 404 Not Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:17:27 GMT
+Content-Length: 5164
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 részletes hibaüzenet – 404.0 – Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP-hiba: 404.0 – Not Found</h3> 
+  <h4>A keresett erõforrást eltávolították, nevét megváltoztatták vagy átmenetileg nem áll rendelkezésre.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Legvalószínûbb okok:</h4> 
+  <ul> 	<li>A megadott könyvtár vagy fájl a webkiszolgálón nem található.</li> 	<li>Az URL neve gépelési hibát tartalmaz.</li> 	<li>Egy egyéni szûrõ vagy modul, mint például az URLScan, korlátozza a fájlhoz való hozzáférést.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Megoldási javaslatok:</h4> 
+  <ul> 	<li>Hozzon létre tartalmat a webkiszolgálón.</li> 	<li>Ellenõrizze a böngészõbe beírt URL-címet.</li> 	<li>Hozzon létre egy nyomkövetési szabályt az ehhez a HTTP-állapotkódhoz tartozó sikertelen kérelmek nyomon követéséhez és annak megtekintéséhez, hogy melyik modul hívta meg a SetStatus parancsot. <a href="http://go.microsoft.com/fwlink/?LinkID=66439">Kattintson ide</a> a sikertelen kérelmek nyomon követésére szolgáló szabályok létrehozásával kapcsolatos további információért.</li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Részletes hibaadatok:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Modul:</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Értesítés:</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Kezelõ:</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Hibakód:</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Kért URL-cím:</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/err</td></tr> 
+    <tr><th>Fizikai elérési út:</th><td>&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\err</td></tr> 
+    <tr class="alt"><th>Bejelentkezési módszer:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+    <tr><th>Bejelentkezõ felhasználó:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>További információ:</h4> 
+  Ez a hiba azt jelenti, hogy a fájl vagy a könyvtár a kiszolgálón nem található. Hozza létre a fájlt vagy a könyvtárat, majd próbálja meg újból a kérelmet. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,22631">További információ megtekintése &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+-- req:
+GET /err HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 404 Not Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:18:12 GMT
+Content-Length: 5164
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 részletes hibaüzenet – 404.0 – Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP-hiba: 404.0 – Not Found</h3> 
+  <h4>A keresett erõforrást eltávolították, nevét megváltoztatták vagy átmenetileg nem áll rendelkezésre.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Legvalószínûbb okok:</h4> 
+  <ul> 	<li>A megadott könyvtár vagy fájl a webkiszolgálón nem található.</li> 	<li>Az URL neve gépelési hibát tartalmaz.</li> 	<li>Egy egyéni szûrõ vagy modul, mint például az URLScan, korlátozza a fájlhoz való hozzáférést.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Megoldási javaslatok:</h4> 
+  <ul> 	<li>Hozzon létre tartalmat a webkiszolgálón.</li> 	<li>Ellenõrizze a böngészõbe beírt URL-címet.</li> 	<li>Hozzon létre egy nyomkövetési szabályt az ehhez a HTTP-állapotkódhoz tartozó sikertelen kérelmek nyomon követéséhez és annak megtekintéséhez, hogy melyik modul hívta meg a SetStatus parancsot. <a href="http://go.microsoft.com/fwlink/?LinkID=66439">Kattintson ide</a> a sikertelen kérelmek nyomon követésére szolgáló szabályok létrehozásával kapcsolatos további információért.</li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Részletes hibaadatok:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Modul:</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Értesítés:</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Kezelõ:</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Hibakód:</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Kért URL-cím:</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/err</td></tr> 
+    <tr><th>Fizikai elérési út:</th><td>&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\err</td></tr> 
+    <tr class="alt"><th>Bejelentkezési módszer:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+    <tr><th>Bejelentkezõ felhasználó:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>További információ:</h4> 
+  Ez a hiba azt jelenti, hogy a fájl vagy a könyvtár a kiszolgálón nem található. Hozza létre a fájlt vagy a könyvtárat, majd próbálja meg újból a kérelmet. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,22631">További információ megtekintése &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+-- req:
+GET /err HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 404 Not Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:18:21 GMT
+Content-Length: 5164
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 részletes hibaüzenet – 404.0 – Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP-hiba: 404.0 – Not Found</h3> 
+  <h4>A keresett erõforrást eltávolították, nevét megváltoztatták vagy átmenetileg nem áll rendelkezésre.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Legvalószínûbb okok:</h4> 
+  <ul> 	<li>A megadott könyvtár vagy fájl a webkiszolgálón nem található.</li> 	<li>Az URL neve gépelési hibát tartalmaz.</li> 	<li>Egy egyéni szûrõ vagy modul, mint például az URLScan, korlátozza a fájlhoz való hozzáférést.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Megoldási javaslatok:</h4> 
+  <ul> 	<li>Hozzon létre tartalmat a webkiszolgálón.</li> 	<li>Ellenõrizze a böngészõbe beírt URL-címet.</li> 	<li>Hozzon létre egy nyomkövetési szabályt az ehhez a HTTP-állapotkódhoz tartozó sikertelen kérelmek nyomon követéséhez és annak megtekintéséhez, hogy melyik modul hívta meg a SetStatus parancsot. <a href="http://go.microsoft.com/fwlink/?LinkID=66439">Kattintson ide</a> a sikertelen kérelmek nyomon követésére szolgáló szabályok létrehozásával kapcsolatos további információért.</li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Részletes hibaadatok:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Modul:</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Értesítés:</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Kezelõ:</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Hibakód:</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Kért URL-cím:</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/err</td></tr> 
+    <tr><th>Fizikai elérési út:</th><td>&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\err</td></tr> 
+    <tr class="alt"><th>Bejelentkezési módszer:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+    <tr><th>Bejelentkezõ felhasználó:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>További információ:</h4> 
+  Ez a hiba azt jelenti, hogy a fájl vagy a könyvtár a kiszolgálón nem található. Hozza létre a fájlt vagy a könyvtárat, majd próbálja meg újból a kérelmet. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,22631">További információ megtekintése &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+-- req:
+GET /err HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 404 Not Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:19:07 GMT
+Content-Length: 5164
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 részletes hibaüzenet – 404.0 – Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP-hiba: 404.0 – Not Found</h3> 
+  <h4>A keresett erõforrást eltávolították, nevét megváltoztatták vagy átmenetileg nem áll rendelkezésre.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Legvalószínûbb okok:</h4> 
+  <ul> 	<li>A megadott könyvtár vagy fájl a webkiszolgálón nem található.</li> 	<li>Az URL neve gépelési hibát tartalmaz.</li> 	<li>Egy egyéni szûrõ vagy modul, mint például az URLScan, korlátozza a fájlhoz való hozzáférést.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Megoldási javaslatok:</h4> 
+  <ul> 	<li>Hozzon létre tartalmat a webkiszolgálón.</li> 	<li>Ellenõrizze a böngészõbe beírt URL-címet.</li> 	<li>Hozzon létre egy nyomkövetési szabályt az ehhez a HTTP-állapotkódhoz tartozó sikertelen kérelmek nyomon követéséhez és annak megtekintéséhez, hogy melyik modul hívta meg a SetStatus parancsot. <a href="http://go.microsoft.com/fwlink/?LinkID=66439">Kattintson ide</a> a sikertelen kérelmek nyomon követésére szolgáló szabályok létrehozásával kapcsolatos további információért.</li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Részletes hibaadatok:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Modul:</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Értesítés:</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Kezelõ:</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Hibakód:</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Kért URL-cím:</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/err</td></tr> 
+    <tr><th>Fizikai elérési út:</th><td>&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\err</td></tr> 
+    <tr class="alt"><th>Bejelentkezési módszer:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+    <tr><th>Bejelentkezõ felhasználó:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>További információ:</h4> 
+  Ez a hiba azt jelenti, hogy a fájl vagy a könyvtár a kiszolgálón nem található. Hozza létre a fájlt vagy a könyvtárat, majd próbálja meg újból a kérelmet. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,22631">További információ megtekintése &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+-- req:
+GET /err HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 404 Not Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:19:21 GMT
+Content-Length: 5164
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 részletes hibaüzenet – 404.0 – Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP-hiba: 404.0 – Not Found</h3> 
+  <h4>A keresett erõforrást eltávolították, nevét megváltoztatták vagy átmenetileg nem áll rendelkezésre.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Legvalószínûbb okok:</h4> 
+  <ul> 	<li>A megadott könyvtár vagy fájl a webkiszolgálón nem található.</li> 	<li>Az URL neve gépelési hibát tartalmaz.</li> 	<li>Egy egyéni szûrõ vagy modul, mint például az URLScan, korlátozza a fájlhoz való hozzáférést.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Megoldási javaslatok:</h4> 
+  <ul> 	<li>Hozzon létre tartalmat a webkiszolgálón.</li> 	<li>Ellenõrizze a böngészõbe beírt URL-címet.</li> 	<li>Hozzon létre egy nyomkövetési szabályt az ehhez a HTTP-állapotkódhoz tartozó sikertelen kérelmek nyomon követéséhez és annak megtekintéséhez, hogy melyik modul hívta meg a SetStatus parancsot. <a href="http://go.microsoft.com/fwlink/?LinkID=66439">Kattintson ide</a> a sikertelen kérelmek nyomon követésére szolgáló szabályok létrehozásával kapcsolatos további információért.</li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Részletes hibaadatok:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Modul:</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Értesítés:</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Kezelõ:</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Hibakód:</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Kért URL-cím:</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/err</td></tr> 
+    <tr><th>Fizikai elérési út:</th><td>&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\err</td></tr> 
+    <tr class="alt"><th>Bejelentkezési módszer:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+    <tr><th>Bejelentkezõ felhasználó:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>További információ:</h4> 
+  Ez a hiba azt jelenti, hogy a fájl vagy a könyvtár a kiszolgálón nem található. Hozza létre a fájlt vagy a könyvtárat, majd próbálja meg újból a kérelmet. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,22631">További információ megtekintése &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+-- req:
+GET /err HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 404 Not Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:19:42 GMT
+Content-Length: 5164
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 részletes hibaüzenet – 404.0 – Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP-hiba: 404.0 – Not Found</h3> 
+  <h4>A keresett erõforrást eltávolították, nevét megváltoztatták vagy átmenetileg nem áll rendelkezésre.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Legvalószínûbb okok:</h4> 
+  <ul> 	<li>A megadott könyvtár vagy fájl a webkiszolgálón nem található.</li> 	<li>Az URL neve gépelési hibát tartalmaz.</li> 	<li>Egy egyéni szûrõ vagy modul, mint például az URLScan, korlátozza a fájlhoz való hozzáférést.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Megoldási javaslatok:</h4> 
+  <ul> 	<li>Hozzon létre tartalmat a webkiszolgálón.</li> 	<li>Ellenõrizze a böngészõbe beírt URL-címet.</li> 	<li>Hozzon létre egy nyomkövetési szabályt az ehhez a HTTP-állapotkódhoz tartozó sikertelen kérelmek nyomon követéséhez és annak megtekintéséhez, hogy melyik modul hívta meg a SetStatus parancsot. <a href="http://go.microsoft.com/fwlink/?LinkID=66439">Kattintson ide</a> a sikertelen kérelmek nyomon követésére szolgáló szabályok létrehozásával kapcsolatos további információért.</li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Részletes hibaadatok:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Modul:</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Értesítés:</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Kezelõ:</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Hibakód:</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Kért URL-cím:</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/err</td></tr> 
+    <tr><th>Fizikai elérési út:</th><td>&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\err</td></tr> 
+    <tr class="alt"><th>Bejelentkezési módszer:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+    <tr><th>Bejelentkezõ felhasználó:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>További információ:</h4> 
+  Ez a hiba azt jelenti, hogy a fájl vagy a könyvtár a kiszolgálón nem található. Hozza létre a fájlt vagy a könyvtárat, majd próbálja meg újból a kérelmet. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,22631">További információ megtekintése &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+-- req:
+GET /err HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 404 Not Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:19:44 GMT
+Content-Length: 5164
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 részletes hibaüzenet – 404.0 – Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP-hiba: 404.0 – Not Found</h3> 
+  <h4>A keresett erõforrást eltávolították, nevét megváltoztatták vagy átmenetileg nem áll rendelkezésre.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Legvalószínûbb okok:</h4> 
+  <ul> 	<li>A megadott könyvtár vagy fájl a webkiszolgálón nem található.</li> 	<li>Az URL neve gépelési hibát tartalmaz.</li> 	<li>Egy egyéni szûrõ vagy modul, mint például az URLScan, korlátozza a fájlhoz való hozzáférést.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Megoldási javaslatok:</h4> 
+  <ul> 	<li>Hozzon létre tartalmat a webkiszolgálón.</li> 	<li>Ellenõrizze a böngészõbe beírt URL-címet.</li> 	<li>Hozzon létre egy nyomkövetési szabályt az ehhez a HTTP-állapotkódhoz tartozó sikertelen kérelmek nyomon követéséhez és annak megtekintéséhez, hogy melyik modul hívta meg a SetStatus parancsot. <a href="http://go.microsoft.com/fwlink/?LinkID=66439">Kattintson ide</a> a sikertelen kérelmek nyomon követésére szolgáló szabályok létrehozásával kapcsolatos további információért.</li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Részletes hibaadatok:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Modul:</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Értesítés:</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Kezelõ:</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Hibakód:</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Kért URL-cím:</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/err</td></tr> 
+    <tr><th>Fizikai elérési út:</th><td>&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\err</td></tr> 
+    <tr class="alt"><th>Bejelentkezési módszer:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+    <tr><th>Bejelentkezõ felhasználó:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>További információ:</h4> 
+  Ez a hiba azt jelenti, hogy a fájl vagy a könyvtár a kiszolgálón nem található. Hozza létre a fájlt vagy a könyvtárat, majd próbálja meg újból a kérelmet. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,22631">További információ megtekintése &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+-- req:
+GET / HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sat, 13 Apr 2024 06:23:14 GMT
+Accept-Ranges: bytes
+ETag: "267af7106b8dda1:0"
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:20:34 GMT
+Content-Length: 696
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>IIS Windows</title>
+<style type="text/css">
+<!--
+body {
+	color:#000000;
+	background-color:#0072C6;
+	margin:0;
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}
+
+a img {
+	border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id="container">
+<a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="iisstart.png" alt="IIS" width="960" height="600" /></a>
+</div>
+</body>
+</html>
+-- req:
+GET / HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sat, 13 Apr 2024 06:23:14 GMT
+Accept-Ranges: bytes
+ETag: "267af7106b8dda1:0"
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:20:48 GMT
+Content-Length: 696
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>IIS Windows</title>
+<style type="text/css">
+<!--
+body {
+	color:#000000;
+	background-color:#0072C6;
+	margin:0;
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}
+
+a img {
+	border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id="container">
+<a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="iisstart.png" alt="IIS" width="960" height="600" /></a>
+</div>
+</body>
+</html>
+-- req:
+GET / HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sat, 13 Apr 2024 06:23:14 GMT
+Accept-Ranges: bytes
+ETag: "267af7106b8dda1:0"
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:21:03 GMT
+Content-Length: 696
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>IIS Windows</title>
+<style type="text/css">
+<!--
+body {
+	color:#000000;
+	background-color:#0072C6;
+	margin:0;
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}
+
+a img {
+	border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id="container">
+<a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="iisstart.png" alt="IIS" width="960" height="600" /></a>
+</div>
+</body>
+</html>
+-- req:
+GET / HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sat, 13 Apr 2024 06:23:14 GMT
+Accept-Ranges: bytes
+ETag: "267af7106b8dda1:0"
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:21:06 GMT
+Content-Length: 696
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>IIS Windows</title>
+<style type="text/css">
+<!--
+body {
+	color:#000000;
+	background-color:#0072C6;
+	margin:0;
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}
+
+a img {
+	border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id="container">
+<a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="iisstart.png" alt="IIS" width="960" height="600" /></a>
+</div>
+</body>
+</html>
+-- req:
+GET /err HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 404 Not Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:21:17 GMT
+Content-Length: 5164
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 részletes hibaüzenet – 404.0 – Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP-hiba: 404.0 – Not Found</h3> 
+  <h4>A keresett erõforrást eltávolították, nevét megváltoztatták vagy átmenetileg nem áll rendelkezésre.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Legvalószínûbb okok:</h4> 
+  <ul> 	<li>A megadott könyvtár vagy fájl a webkiszolgálón nem található.</li> 	<li>Az URL neve gépelési hibát tartalmaz.</li> 	<li>Egy egyéni szûrõ vagy modul, mint például az URLScan, korlátozza a fájlhoz való hozzáférést.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Megoldási javaslatok:</h4> 
+  <ul> 	<li>Hozzon létre tartalmat a webkiszolgálón.</li> 	<li>Ellenõrizze a böngészõbe beírt URL-címet.</li> 	<li>Hozzon létre egy nyomkövetési szabályt az ehhez a HTTP-állapotkódhoz tartozó sikertelen kérelmek nyomon követéséhez és annak megtekintéséhez, hogy melyik modul hívta meg a SetStatus parancsot. <a href="http://go.microsoft.com/fwlink/?LinkID=66439">Kattintson ide</a> a sikertelen kérelmek nyomon követésére szolgáló szabályok létrehozásával kapcsolatos további információért.</li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Részletes hibaadatok:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Modul:</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Értesítés:</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Kezelõ:</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Hibakód:</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Kért URL-cím:</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/err</td></tr> 
+    <tr><th>Fizikai elérési út:</th><td>&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\err</td></tr> 
+    <tr class="alt"><th>Bejelentkezési módszer:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+    <tr><th>Bejelentkezõ felhasználó:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>További információ:</h4> 
+  Ez a hiba azt jelenti, hogy a fájl vagy a könyvtár a kiszolgálón nem található. Hozza létre a fájlt vagy a könyvtárat, majd próbálja meg újból a kérelmet. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,22631">További információ megtekintése &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+-- req:
+GET /err HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 404 Not Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:21:46 GMT
+Content-Length: 5164
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 részletes hibaüzenet – 404.0 – Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP-hiba: 404.0 – Not Found</h3> 
+  <h4>A keresett erõforrást eltávolították, nevét megváltoztatták vagy átmenetileg nem áll rendelkezésre.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Legvalószínûbb okok:</h4> 
+  <ul> 	<li>A megadott könyvtár vagy fájl a webkiszolgálón nem található.</li> 	<li>Az URL neve gépelési hibát tartalmaz.</li> 	<li>Egy egyéni szûrõ vagy modul, mint például az URLScan, korlátozza a fájlhoz való hozzáférést.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Megoldási javaslatok:</h4> 
+  <ul> 	<li>Hozzon létre tartalmat a webkiszolgálón.</li> 	<li>Ellenõrizze a böngészõbe beírt URL-címet.</li> 	<li>Hozzon létre egy nyomkövetési szabályt az ehhez a HTTP-állapotkódhoz tartozó sikertelen kérelmek nyomon követéséhez és annak megtekintéséhez, hogy melyik modul hívta meg a SetStatus parancsot. <a href="http://go.microsoft.com/fwlink/?LinkID=66439">Kattintson ide</a> a sikertelen kérelmek nyomon követésére szolgáló szabályok létrehozásával kapcsolatos további információért.</li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Részletes hibaadatok:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Modul:</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Értesítés:</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Kezelõ:</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Hibakód:</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Kért URL-cím:</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/err</td></tr> 
+    <tr><th>Fizikai elérési út:</th><td>&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\err</td></tr> 
+    <tr class="alt"><th>Bejelentkezési módszer:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+    <tr><th>Bejelentkezõ felhasználó:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>További információ:</h4> 
+  Ez a hiba azt jelenti, hogy a fájl vagy a könyvtár a kiszolgálón nem található. Hozza létre a fájlt vagy a könyvtárat, majd próbálja meg újból a kérelmet. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,22631">További információ megtekintése &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+-- req:
+GET /err HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 404 Not Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:21:50 GMT
+Content-Length: 5164
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 részletes hibaüzenet – 404.0 – Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP-hiba: 404.0 – Not Found</h3> 
+  <h4>A keresett erõforrást eltávolították, nevét megváltoztatták vagy átmenetileg nem áll rendelkezésre.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Legvalószínûbb okok:</h4> 
+  <ul> 	<li>A megadott könyvtár vagy fájl a webkiszolgálón nem található.</li> 	<li>Az URL neve gépelési hibát tartalmaz.</li> 	<li>Egy egyéni szûrõ vagy modul, mint például az URLScan, korlátozza a fájlhoz való hozzáférést.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Megoldási javaslatok:</h4> 
+  <ul> 	<li>Hozzon létre tartalmat a webkiszolgálón.</li> 	<li>Ellenõrizze a böngészõbe beírt URL-címet.</li> 	<li>Hozzon létre egy nyomkövetési szabályt az ehhez a HTTP-állapotkódhoz tartozó sikertelen kérelmek nyomon követéséhez és annak megtekintéséhez, hogy melyik modul hívta meg a SetStatus parancsot. <a href="http://go.microsoft.com/fwlink/?LinkID=66439">Kattintson ide</a> a sikertelen kérelmek nyomon követésére szolgáló szabályok létrehozásával kapcsolatos további információért.</li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Részletes hibaadatok:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Modul:</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Értesítés:</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Kezelõ:</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Hibakód:</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Kért URL-cím:</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/err</td></tr> 
+    <tr><th>Fizikai elérési út:</th><td>&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\err</td></tr> 
+    <tr class="alt"><th>Bejelentkezési módszer:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+    <tr><th>Bejelentkezõ felhasználó:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>További információ:</h4> 
+  Ez a hiba azt jelenti, hogy a fájl vagy a könyvtár a kiszolgálón nem található. Hozza létre a fájlt vagy a könyvtárat, majd próbálja meg újból a kérelmet. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,22631">További információ megtekintése &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+-- req:
+GET /err HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 404 Not Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:21:53 GMT
+Content-Length: 5164
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 részletes hibaüzenet – 404.0 – Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP-hiba: 404.0 – Not Found</h3> 
+  <h4>A keresett erõforrást eltávolították, nevét megváltoztatták vagy átmenetileg nem áll rendelkezésre.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Legvalószínûbb okok:</h4> 
+  <ul> 	<li>A megadott könyvtár vagy fájl a webkiszolgálón nem található.</li> 	<li>Az URL neve gépelési hibát tartalmaz.</li> 	<li>Egy egyéni szûrõ vagy modul, mint például az URLScan, korlátozza a fájlhoz való hozzáférést.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Megoldási javaslatok:</h4> 
+  <ul> 	<li>Hozzon létre tartalmat a webkiszolgálón.</li> 	<li>Ellenõrizze a böngészõbe beírt URL-címet.</li> 	<li>Hozzon létre egy nyomkövetési szabályt az ehhez a HTTP-állapotkódhoz tartozó sikertelen kérelmek nyomon követéséhez és annak megtekintéséhez, hogy melyik modul hívta meg a SetStatus parancsot. <a href="http://go.microsoft.com/fwlink/?LinkID=66439">Kattintson ide</a> a sikertelen kérelmek nyomon követésére szolgáló szabályok létrehozásával kapcsolatos további információért.</li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Részletes hibaadatok:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Modul:</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Értesítés:</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Kezelõ:</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Hibakód:</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Kért URL-cím:</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/err</td></tr> 
+    <tr><th>Fizikai elérési út:</th><td>&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\err</td></tr> 
+    <tr class="alt"><th>Bejelentkezési módszer:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+    <tr><th>Bejelentkezõ felhasználó:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>További információ:</h4> 
+  Ez a hiba azt jelenti, hogy a fájl vagy a könyvtár a kiszolgálón nem található. Hozza létre a fájlt vagy a könyvtárat, majd próbálja meg újból a kérelmet. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,22631">További információ megtekintése &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+-- req:
+GET /err HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 404 Not Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:22:01 GMT
+Content-Length: 5164
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 részletes hibaüzenet – 404.0 – Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP-hiba: 404.0 – Not Found</h3> 
+  <h4>A keresett erõforrást eltávolították, nevét megváltoztatták vagy átmenetileg nem áll rendelkezésre.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Legvalószínûbb okok:</h4> 
+  <ul> 	<li>A megadott könyvtár vagy fájl a webkiszolgálón nem található.</li> 	<li>Az URL neve gépelési hibát tartalmaz.</li> 	<li>Egy egyéni szûrõ vagy modul, mint például az URLScan, korlátozza a fájlhoz való hozzáférést.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Megoldási javaslatok:</h4> 
+  <ul> 	<li>Hozzon létre tartalmat a webkiszolgálón.</li> 	<li>Ellenõrizze a böngészõbe beírt URL-címet.</li> 	<li>Hozzon létre egy nyomkövetési szabályt az ehhez a HTTP-állapotkódhoz tartozó sikertelen kérelmek nyomon követéséhez és annak megtekintéséhez, hogy melyik modul hívta meg a SetStatus parancsot. <a href="http://go.microsoft.com/fwlink/?LinkID=66439">Kattintson ide</a> a sikertelen kérelmek nyomon követésére szolgáló szabályok létrehozásával kapcsolatos további információért.</li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Részletes hibaadatok:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Modul:</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Értesítés:</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Kezelõ:</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Hibakód:</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Kért URL-cím:</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/err</td></tr> 
+    <tr><th>Fizikai elérési út:</th><td>&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\err</td></tr> 
+    <tr class="alt"><th>Bejelentkezési módszer:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+    <tr><th>Bejelentkezõ felhasználó:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>További információ:</h4> 
+  Ez a hiba azt jelenti, hogy a fájl vagy a könyvtár a kiszolgálón nem található. Hozza létre a fájlt vagy a könyvtárat, majd próbálja meg újból a kérelmet. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,22631">További információ megtekintése &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+-- req:
+GET /err HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 404 Not Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:22:04 GMT
+Content-Length: 5164
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 részletes hibaüzenet – 404.0 – Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP-hiba: 404.0 – Not Found</h3> 
+  <h4>A keresett erõforrást eltávolították, nevét megváltoztatták vagy átmenetileg nem áll rendelkezésre.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Legvalószínûbb okok:</h4> 
+  <ul> 	<li>A megadott könyvtár vagy fájl a webkiszolgálón nem található.</li> 	<li>Az URL neve gépelési hibát tartalmaz.</li> 	<li>Egy egyéni szûrõ vagy modul, mint például az URLScan, korlátozza a fájlhoz való hozzáférést.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Megoldási javaslatok:</h4> 
+  <ul> 	<li>Hozzon létre tartalmat a webkiszolgálón.</li> 	<li>Ellenõrizze a böngészõbe beírt URL-címet.</li> 	<li>Hozzon létre egy nyomkövetési szabályt az ehhez a HTTP-állapotkódhoz tartozó sikertelen kérelmek nyomon követéséhez és annak megtekintéséhez, hogy melyik modul hívta meg a SetStatus parancsot. <a href="http://go.microsoft.com/fwlink/?LinkID=66439">Kattintson ide</a> a sikertelen kérelmek nyomon követésére szolgáló szabályok létrehozásával kapcsolatos további információért.</li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Részletes hibaadatok:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Modul:</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Értesítés:</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Kezelõ:</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Hibakód:</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Kért URL-cím:</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/err</td></tr> 
+    <tr><th>Fizikai elérési út:</th><td>&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\err</td></tr> 
+    <tr class="alt"><th>Bejelentkezési módszer:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+    <tr><th>Bejelentkezõ felhasználó:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>További információ:</h4> 
+  Ez a hiba azt jelenti, hogy a fájl vagy a könyvtár a kiszolgálón nem található. Hozza létre a fájlt vagy a könyvtárat, majd próbálja meg újból a kérelmet. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,22631">További információ megtekintése &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+-- req:
+GET /err HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 404 Not Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:22:22 GMT
+Content-Length: 5164
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 részletes hibaüzenet – 404.0 – Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP-hiba: 404.0 – Not Found</h3> 
+  <h4>A keresett erõforrást eltávolították, nevét megváltoztatták vagy átmenetileg nem áll rendelkezésre.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Legvalószínûbb okok:</h4> 
+  <ul> 	<li>A megadott könyvtár vagy fájl a webkiszolgálón nem található.</li> 	<li>Az URL neve gépelési hibát tartalmaz.</li> 	<li>Egy egyéni szûrõ vagy modul, mint például az URLScan, korlátozza a fájlhoz való hozzáférést.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Megoldási javaslatok:</h4> 
+  <ul> 	<li>Hozzon létre tartalmat a webkiszolgálón.</li> 	<li>Ellenõrizze a böngészõbe beírt URL-címet.</li> 	<li>Hozzon létre egy nyomkövetési szabályt az ehhez a HTTP-állapotkódhoz tartozó sikertelen kérelmek nyomon követéséhez és annak megtekintéséhez, hogy melyik modul hívta meg a SetStatus parancsot. <a href="http://go.microsoft.com/fwlink/?LinkID=66439">Kattintson ide</a> a sikertelen kérelmek nyomon követésére szolgáló szabályok létrehozásával kapcsolatos további információért.</li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Részletes hibaadatok:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Modul:</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Értesítés:</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Kezelõ:</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Hibakód:</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Kért URL-cím:</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/err</td></tr> 
+    <tr><th>Fizikai elérési út:</th><td>&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\err</td></tr> 
+    <tr class="alt"><th>Bejelentkezési módszer:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+    <tr><th>Bejelentkezõ felhasználó:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>További információ:</h4> 
+  Ez a hiba azt jelenti, hogy a fájl vagy a könyvtár a kiszolgálón nem található. Hozza létre a fájlt vagy a könyvtárat, majd próbálja meg újból a kérelmet. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,22631">További információ megtekintése &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+-- req:
+GET /err HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 404 Not Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:22:30 GMT
+Content-Length: 5164
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 részletes hibaüzenet – 404.0 – Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP-hiba: 404.0 – Not Found</h3> 
+  <h4>A keresett erõforrást eltávolították, nevét megváltoztatták vagy átmenetileg nem áll rendelkezésre.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Legvalószínûbb okok:</h4> 
+  <ul> 	<li>A megadott könyvtár vagy fájl a webkiszolgálón nem található.</li> 	<li>Az URL neve gépelési hibát tartalmaz.</li> 	<li>Egy egyéni szûrõ vagy modul, mint például az URLScan, korlátozza a fájlhoz való hozzáférést.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Megoldási javaslatok:</h4> 
+  <ul> 	<li>Hozzon létre tartalmat a webkiszolgálón.</li> 	<li>Ellenõrizze a böngészõbe beírt URL-címet.</li> 	<li>Hozzon létre egy nyomkövetési szabályt az ehhez a HTTP-állapotkódhoz tartozó sikertelen kérelmek nyomon követéséhez és annak megtekintéséhez, hogy melyik modul hívta meg a SetStatus parancsot. <a href="http://go.microsoft.com/fwlink/?LinkID=66439">Kattintson ide</a> a sikertelen kérelmek nyomon követésére szolgáló szabályok létrehozásával kapcsolatos további információért.</li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Részletes hibaadatok:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Modul:</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Értesítés:</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Kezelõ:</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Hibakód:</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Kért URL-cím:</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/err</td></tr> 
+    <tr><th>Fizikai elérési út:</th><td>&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\err</td></tr> 
+    <tr class="alt"><th>Bejelentkezési módszer:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+    <tr><th>Bejelentkezõ felhasználó:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>További információ:</h4> 
+  Ez a hiba azt jelenti, hogy a fájl vagy a könyvtár a kiszolgálón nem található. Hozza létre a fájlt vagy a könyvtárat, majd próbálja meg újból a kérelmet. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,22631">További információ megtekintése &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+-- req:
+GET /err HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 404 Not Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:22:37 GMT
+Content-Length: 5164
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 részletes hibaüzenet – 404.0 – Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP-hiba: 404.0 – Not Found</h3> 
+  <h4>A keresett erõforrást eltávolították, nevét megváltoztatták vagy átmenetileg nem áll rendelkezésre.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Legvalószínûbb okok:</h4> 
+  <ul> 	<li>A megadott könyvtár vagy fájl a webkiszolgálón nem található.</li> 	<li>Az URL neve gépelési hibát tartalmaz.</li> 	<li>Egy egyéni szûrõ vagy modul, mint például az URLScan, korlátozza a fájlhoz való hozzáférést.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Megoldási javaslatok:</h4> 
+  <ul> 	<li>Hozzon létre tartalmat a webkiszolgálón.</li> 	<li>Ellenõrizze a böngészõbe beírt URL-címet.</li> 	<li>Hozzon létre egy nyomkövetési szabályt az ehhez a HTTP-állapotkódhoz tartozó sikertelen kérelmek nyomon követéséhez és annak megtekintéséhez, hogy melyik modul hívta meg a SetStatus parancsot. <a href="http://go.microsoft.com/fwlink/?LinkID=66439">Kattintson ide</a> a sikertelen kérelmek nyomon követésére szolgáló szabályok létrehozásával kapcsolatos további információért.</li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Részletes hibaadatok:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Modul:</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Értesítés:</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Kezelõ:</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Hibakód:</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Kért URL-cím:</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/err</td></tr> 
+    <tr><th>Fizikai elérési út:</th><td>&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\err</td></tr> 
+    <tr class="alt"><th>Bejelentkezési módszer:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+    <tr><th>Bejelentkezõ felhasználó:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>További információ:</h4> 
+  Ez a hiba azt jelenti, hogy a fájl vagy a könyvtár a kiszolgálón nem található. Hozza létre a fájlt vagy a könyvtárat, majd próbálja meg újból a kérelmet. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,22631">További információ megtekintése &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+-- req:
+GET /err HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 404 Not Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:22:48 GMT
+Content-Length: 5164
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 részletes hibaüzenet – 404.0 – Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP-hiba: 404.0 – Not Found</h3> 
+  <h4>A keresett erõforrást eltávolították, nevét megváltoztatták vagy átmenetileg nem áll rendelkezésre.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Legvalószínûbb okok:</h4> 
+  <ul> 	<li>A megadott könyvtár vagy fájl a webkiszolgálón nem található.</li> 	<li>Az URL neve gépelési hibát tartalmaz.</li> 	<li>Egy egyéni szûrõ vagy modul, mint például az URLScan, korlátozza a fájlhoz való hozzáférést.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Megoldási javaslatok:</h4> 
+  <ul> 	<li>Hozzon létre tartalmat a webkiszolgálón.</li> 	<li>Ellenõrizze a böngészõbe beírt URL-címet.</li> 	<li>Hozzon létre egy nyomkövetési szabályt az ehhez a HTTP-állapotkódhoz tartozó sikertelen kérelmek nyomon követéséhez és annak megtekintéséhez, hogy melyik modul hívta meg a SetStatus parancsot. <a href="http://go.microsoft.com/fwlink/?LinkID=66439">Kattintson ide</a> a sikertelen kérelmek nyomon követésére szolgáló szabályok létrehozásával kapcsolatos további információért.</li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Részletes hibaadatok:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Modul:</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Értesítés:</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Kezelõ:</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Hibakód:</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Kért URL-cím:</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/err</td></tr> 
+    <tr><th>Fizikai elérési út:</th><td>&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\err</td></tr> 
+    <tr class="alt"><th>Bejelentkezési módszer:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+    <tr><th>Bejelentkezõ felhasználó:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>További információ:</h4> 
+  Ez a hiba azt jelenti, hogy a fájl vagy a könyvtár a kiszolgálón nem található. Hozza létre a fájlt vagy a könyvtárat, majd próbálja meg újból a kérelmet. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,22631">További információ megtekintése &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+-- req:
+GET /err HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 404 Not Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:22:58 GMT
+Content-Length: 5164
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 részletes hibaüzenet – 404.0 – Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP-hiba: 404.0 – Not Found</h3> 
+  <h4>A keresett erõforrást eltávolították, nevét megváltoztatták vagy átmenetileg nem áll rendelkezésre.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Legvalószínûbb okok:</h4> 
+  <ul> 	<li>A megadott könyvtár vagy fájl a webkiszolgálón nem található.</li> 	<li>Az URL neve gépelési hibát tartalmaz.</li> 	<li>Egy egyéni szûrõ vagy modul, mint például az URLScan, korlátozza a fájlhoz való hozzáférést.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Megoldási javaslatok:</h4> 
+  <ul> 	<li>Hozzon létre tartalmat a webkiszolgálón.</li> 	<li>Ellenõrizze a böngészõbe beírt URL-címet.</li> 	<li>Hozzon létre egy nyomkövetési szabályt az ehhez a HTTP-állapotkódhoz tartozó sikertelen kérelmek nyomon követéséhez és annak megtekintéséhez, hogy melyik modul hívta meg a SetStatus parancsot. <a href="http://go.microsoft.com/fwlink/?LinkID=66439">Kattintson ide</a> a sikertelen kérelmek nyomon követésére szolgáló szabályok létrehozásával kapcsolatos további információért.</li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Részletes hibaadatok:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Modul:</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Értesítés:</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Kezelõ:</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Hibakód:</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Kért URL-cím:</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/err</td></tr> 
+    <tr><th>Fizikai elérési út:</th><td>&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\err</td></tr> 
+    <tr class="alt"><th>Bejelentkezési módszer:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+    <tr><th>Bejelentkezõ felhasználó:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>További információ:</h4> 
+  Ez a hiba azt jelenti, hogy a fájl vagy a könyvtár a kiszolgálón nem található. Hozza létre a fájlt vagy a könyvtárat, majd próbálja meg újból a kérelmet. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,22631">További információ megtekintése &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+-- req:
+GET /err HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 404 Not Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:29:00 GMT
+Content-Length: 5164
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 részletes hibaüzenet – 404.0 – Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP-hiba: 404.0 – Not Found</h3> 
+  <h4>A keresett erõforrást eltávolították, nevét megváltoztatták vagy átmenetileg nem áll rendelkezésre.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Legvalószínûbb okok:</h4> 
+  <ul> 	<li>A megadott könyvtár vagy fájl a webkiszolgálón nem található.</li> 	<li>Az URL neve gépelési hibát tartalmaz.</li> 	<li>Egy egyéni szûrõ vagy modul, mint például az URLScan, korlátozza a fájlhoz való hozzáférést.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Megoldási javaslatok:</h4> 
+  <ul> 	<li>Hozzon létre tartalmat a webkiszolgálón.</li> 	<li>Ellenõrizze a böngészõbe beírt URL-címet.</li> 	<li>Hozzon létre egy nyomkövetési szabályt az ehhez a HTTP-állapotkódhoz tartozó sikertelen kérelmek nyomon követéséhez és annak megtekintéséhez, hogy melyik modul hívta meg a SetStatus parancsot. <a href="http://go.microsoft.com/fwlink/?LinkID=66439">Kattintson ide</a> a sikertelen kérelmek nyomon követésére szolgáló szabályok létrehozásával kapcsolatos további információért.</li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Részletes hibaadatok:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Modul:</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Értesítés:</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Kezelõ:</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Hibakód:</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Kért URL-cím:</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/err</td></tr> 
+    <tr><th>Fizikai elérési út:</th><td>&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\err</td></tr> 
+    <tr class="alt"><th>Bejelentkezési módszer:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+    <tr><th>Bejelentkezõ felhasználó:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>További információ:</h4> 
+  Ez a hiba azt jelenti, hogy a fájl vagy a könyvtár a kiszolgálón nem található. Hozza létre a fájlt vagy a könyvtárat, majd próbálja meg újból a kérelmet. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,22631">További információ megtekintése &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+-- req:
+GET /err HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 404 Not Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Date: Sun, 14 Apr 2024 19:29:05 GMT
+Content-Length: 5164
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 részletes hibaüzenet – 404.0 – Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP-hiba: 404.0 – Not Found</h3> 
+  <h4>A keresett erõforrást eltávolították, nevét megváltoztatták vagy átmenetileg nem áll rendelkezésre.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Legvalószínûbb okok:</h4> 
+  <ul> 	<li>A megadott könyvtár vagy fájl a webkiszolgálón nem található.</li> 	<li>Az URL neve gépelési hibát tartalmaz.</li> 	<li>Egy egyéni szûrõ vagy modul, mint például az URLScan, korlátozza a fájlhoz való hozzáférést.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Megoldási javaslatok:</h4> 
+  <ul> 	<li>Hozzon létre tartalmat a webkiszolgálón.</li> 	<li>Ellenõrizze a böngészõbe beírt URL-címet.</li> 	<li>Hozzon létre egy nyomkövetési szabályt az ehhez a HTTP-állapotkódhoz tartozó sikertelen kérelmek nyomon követéséhez és annak megtekintéséhez, hogy melyik modul hívta meg a SetStatus parancsot. <a href="http://go.microsoft.com/fwlink/?LinkID=66439">Kattintson ide</a> a sikertelen kérelmek nyomon követésére szolgáló szabályok létrehozásával kapcsolatos további információért.</li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Részletes hibaadatok:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Modul:</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Értesítés:</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Kezelõ:</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Hibakód:</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Kért URL-cím:</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/err</td></tr> 
+    <tr><th>Fizikai elérési út:</th><td>&nbsp;&nbsp;&nbsp;C:\inetpub\wwwroot\err</td></tr> 
+    <tr class="alt"><th>Bejelentkezési módszer:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+    <tr><th>Bejelentkezõ felhasználó:</th><td>&nbsp;&nbsp;&nbsp;Névtelen</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>További információ:</h4> 
+  Ez a hiba azt jelenti, hogy a fájl vagy a könyvtár a kiszolgálón nem található. Hozza létre a fájlt vagy a könyvtárat, majd próbálja meg újból a kérelmet. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,22631">További információ megtekintése &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
