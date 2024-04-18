@@ -1,5 +1,11 @@
 import socket
 
+target_host = {
+     "hostname": "localhost",
+     "port": "8080",
+}
+
+
 def netcat(hostname, port, content):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((hostname, int(port)))
@@ -44,10 +50,10 @@ def split_response(response):
                 else ""
     }
 
-def get_response_for(port,request):
+def get_response_for(request):
     response = netcat(
-        hostname= "localhost",
-        port=port, 
-        content=request)
+        target_host["hostname"],
+        target_host["port"], 
+        request)
         
     return {**split_response(response), "raw": response}

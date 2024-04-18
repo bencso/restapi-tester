@@ -1,0 +1,7020 @@
+
+-- req:
+GET / HTTP/1.1
+Host: localhost
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:31:58 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:32:06 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:33:19 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:33:20 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:33:30 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:33:31 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:33:57 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:33:57 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:34:01 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:34:06 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:34:14 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:34:15 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:35:07 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:35:08 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:35:13 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:35:13 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:36:29 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:36:30 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:36:52 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:36:52 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:39:18 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:39:19 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:39:21 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:39:22 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:39:22 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:41:28 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:41:28 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:41:31 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:41:31 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:43:17 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:43:17 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:43:18 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:43:18 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:43:18 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:43:18 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:43:21 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:43:21 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:43:39 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:43:39 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:43:46 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:43:46 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:43:46 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:43:46 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client/test HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 404 NOT FOUND
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:43:50 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 207
+Connection: close
+
+<!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+-- req:
+GET /client/test HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 404 NOT FOUND
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:43:57 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 207
+Connection: close
+
+<!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+-- req:
+GET /client/test HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 404 NOT FOUND
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:43:57 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 207
+Connection: close
+
+<!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+-- req:
+GET /client/test HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 404 NOT FOUND
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:44:05 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 207
+Connection: close
+
+<!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+-- req:
+GET /client/test HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 404 NOT FOUND
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:44:05 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 207
+Connection: close
+
+<!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+-- req:
+GET /clients/test HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 404 NOT FOUND
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:44:19 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 207
+Connection: close
+
+<!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:44:34 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:44:34 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+test
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:44:40 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:44:40 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+test
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:44:47 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:44:47 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+
+
+test
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:45:02 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:45:02 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+
+
+test
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:45:13 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:45:13 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /server/test HTTP/1.1
+
+
+test
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:45:20 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 239
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Side Rendering</title>
+</head>
+<body>
+    <h1>Hello, test!</h1>
+</body>
+</html>
+-- req:
+GET /server/test fafa HTTP/1.1
+
+
+test
+
+-- res:
+HTTP/1.1 400 Bad request syntax ('GET /server/test fafa HTTP/1.1')
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:45:24 GMT
+Connection: close
+Content-Type: text/html;charset=utf-8
+Content-Length: 385
+
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Error response</title>
+    </head>
+    <body>
+        <h1>Error response</h1>
+        <p>Error code: 400</p>
+        <p>Message: Bad request syntax ('GET /server/test fafa HTTP/1.1').</p>
+        <p>Error code explanation: 400 - Bad request syntax or unsupported method.</p>
+    </body>
+</html>
+
+-- req:
+GET HTTP/1.1 /server/test HTTP/1.1
+
+
+test
+
+-- res:
+HTTP/1.1 400 Bad request syntax ('GET HTTP/1.1 /server/test HTTP/1.1')
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:45:34 GMT
+Connection: close
+Content-Type: text/html;charset=utf-8
+Content-Length: 389
+
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Error response</title>
+    </head>
+    <body>
+        <h1>Error response</h1>
+        <p>Error code: 400</p>
+        <p>Message: Bad request syntax ('GET HTTP/1.1 /server/test HTTP/1.1').</p>
+        <p>Error code explanation: 400 - Bad request syntax or unsupported method.</p>
+    </body>
+</html>
+
+-- req:
+GET /server/test HTTP/1.1
+
+
+test
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:45:48 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 239
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Side Rendering</title>
+</head>
+<body>
+    <h1>Hello, test!</h1>
+</body>
+</html>
+-- req:
+GET /server/test HTTP/1.1
+Host: localhost:80
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:46:00 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 239
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Side Rendering</title>
+</head>
+<body>
+    <h1>Hello, test!</h1>
+</body>
+</html>
+-- req:
+GET /server/test HTTP/1.1
+Host: localhost:80
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:46:01 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 239
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Side Rendering</title>
+</head>
+<body>
+    <h1>Hello, test!</h1>
+</body>
+</html>
+-- req:
+GET /server/test HTTP/1.1
+Host: localhost:80
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:46:02 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 239
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Side Rendering</title>
+</head>
+<body>
+    <h1>Hello, test!</h1>
+</body>
+</html>
+-- req:
+GET /server/test HTTP/1.1
+Host: localhost:80
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:46:03 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 239
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Side Rendering</title>
+</head>
+<body>
+    <h1>Hello, test!</h1>
+</body>
+</html>
+-- req:
+GET /server/test HTTP/1.1
+Host: localhost:8080
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:46:07 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 239
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Side Rendering</title>
+</head>
+<body>
+    <h1>Hello, test!</h1>
+</body>
+</html>
+-- req:
+GET /server/test HTTP/1.1
+Host: localhost:8080
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:46:17 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 239
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Side Rendering</title>
+</head>
+<body>
+    <h1>Hello, test!</h1>
+</body>
+</html>
+-- req:
+GET /server/test HTTP/1.1
+Host: localhost:8080
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:49:10 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 239
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Side Rendering</title>
+</head>
+<body>
+    <h1>Hello, test!</h1>
+</body>
+</html>
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:50:13 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:51:03 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:51:15 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:51:17 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET /test HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 404 NOT FOUND
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:51:29 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 207
+Connection: close
+
+<!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+-- req:
+GET /test HTTP/1.1
+
+
+
+-- res:
+HTTP/1.1 404 NOT FOUND
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:51:46 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 207
+Connection: close
+
+<!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+-- req:
+GET /test HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 404 NOT FOUND
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:52:05 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 207
+Connection: close
+
+<!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+-- req:
+GET /test HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 404 NOT FOUND
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:52:14 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 207
+Connection: close
+
+<!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+-- req:
+GET /HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+<!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:52:27 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET /HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+<!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+-- req:
+GET / HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:52:42 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: close
+
+{
+  "endpoints": {
+    "/client": "GET",
+    "/server/<data>": "GET",
+    "/static": "GET"
+  }
+}
+
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:52:57 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:52:57 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:55:45 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:55:45 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:55:59 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:55:59 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:56:04 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:56:04 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:56:09 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:56:09 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:56:17 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:56:17 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:57:08 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:57:08 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:57:15 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:57:15 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:57:58 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:57:58 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:58:45 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:58:45 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:58:46 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:58:46 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:58:54 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:58:54 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:59:17 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:59:17 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 14:59:52 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 14:59:52 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:03:04 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:03:04 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:04:26 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:04:26 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:04:44 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:04:44 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:05:07 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:05:07 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:05:13 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:05:13 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:05:35 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:05:35 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:05:46 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:05:46 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:05:57 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:05:57 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:06:11 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:06:11 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:06:18 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:06:18 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:06:26 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:06:26 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:06:31 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:06:31 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:06:39 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:06:39 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:06:45 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:06:45 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:06:53 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:06:53 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:06:58 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:06:58 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:07:06 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:07:06 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:07:09 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:07:09 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:07:11 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:07:11 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:07:14 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:07:14 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:07:17 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:07:17 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:07:20 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:07:20 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:07:22 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:07:22 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:07:26 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:07:26 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:07:43 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:07:43 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:07:53 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:07:53 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:08:13 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:08:13 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:08:31 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:08:31 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:08:44 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:08:44 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:08:51 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:08:51 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:09:06 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:09:06 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:09:31 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:09:31 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:09:54 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:09:54 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:10:06 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:10:06 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:10:08 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:10:08 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:10:13 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:10:13 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:10:21 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:10:21 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:10:23 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:10:23 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:10:38 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:10:38 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:10:57 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:10:57 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:11:04 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:11:04 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:11:10 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:11:10 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:11:21 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:11:21 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:11:26 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:11:26 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:12:12 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:12:12 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:12:14 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:12:14 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:12:20 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:12:20 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:12:29 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:12:29 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:12:47 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:12:47 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:13:19 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:13:19 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:13:28 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:13:28 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:13:35 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:13:35 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:13:40 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:13:40 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:13:50 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:13:50 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:13:57 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:13:57 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:14:00 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:14:00 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:14:06 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:14:06 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:14:19 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:14:19 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:14:31 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:14:31 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:14:39 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:14:39 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:14:46 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:14:46 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:14:52 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:14:52 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:15:13 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:15:13 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:18:44 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:18:44 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:19:13 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:19:13 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:19:24 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:19:24 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:19:34 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:19:34 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:19:53 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:19:53 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:20:00 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:20:00 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:20:06 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:20:06 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:20:19 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:20:19 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:20:35 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:20:35 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:20:41 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:20:41 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:20:45 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:20:45 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:20:48 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:20:48 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:20:51 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:20:51 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:20:57 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:20:57 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:21:03 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:21:03 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:21:05 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:21:05 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:21:15 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:21:15 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:21:20 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:21:20 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:21:25 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:21:25 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:21:44 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:21:44 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:21:50 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:21:50 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:21:52 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:21:52 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:22:01 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:22:01 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:22:10 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:22:10 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:22:18 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:22:18 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:22:24 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:22:24 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:22:56 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:22:56 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:27:57 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:27:57 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:28:29 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:28:29 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:28:41 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:28:41 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:28:49 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:28:49 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:28:56 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:28:56 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:29:07 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:29:07 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:29:09 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:29:09 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:29:17 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:29:17 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:29:21 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:29:21 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:29:24 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:29:24 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:29:26 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:29:26 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:29:30 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:29:30 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:29:42 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:29:42 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:29:44 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:29:44 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:29:58 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:29:58 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:30:02 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:30:02 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:30:18 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:30:18 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:30:22 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:30:22 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:30:43 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:30:43 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:30:56 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:30:56 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>
+-- req:
+GET /client HTTP/1.1
+Host: localhost:8080
+
+
+
+-- res:
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.2 Python/3.12.3
+Date: Thu, 18 Apr 2024 15:31:02 GMT
+Content-Disposition: inline; filename=client.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 621
+Last-Modified: Wed, 17 Apr 2024 13:13:21 GMT
+Cache-Control: no-cache
+ETag: "1713359601.2191815-621-3918205826"
+Date: Thu, 18 Apr 2024 15:31:02 GMT
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Rendering</title>
+</head>
+<body>
+    <input type="text" id="source">
+    <h1 id="render">Hello,</h1>
+    <script>
+        const source = document.getElementById("source");
+        const render = document.getElementById("render")
+
+        const renderMessage = (e) => {
+            data = e.target.value;
+            render.innerText = "Hello, " + data + "!";
+        }
+
+        source.addEventListener("input", renderMessage);
+    </script>
+</body>
+</html>

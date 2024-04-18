@@ -3,10 +3,10 @@ from uuid import uuid4
 from datetime import date
 
 students = {
-     "jani": {
-         "class": "b12",
-         "pass": "asd1234",
-         "token": "token_for_jani"
+     "tester": {
+         "class": "T1",
+         "pass": "tester",
+         "token": "token_for_tester"
      }
 }
 

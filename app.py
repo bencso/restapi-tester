@@ -3,12 +3,13 @@ from flask import Flask, request, render_template, redirect, make_response
 from utils.nc import get_response_for
 from utils.other import log, get_user_by_token, get_token_for_user
 
+target_host = {
+     "hostname": "localhost",
+     "port": "8080",
+}
 
 app = Flask(__name__)
-target_host = {
-    "hostname" : "localhost",
-    "port": "80"
-}
+
 @app.route("/", methods=["GET", "POST"])
 def root():
     token = request.cookies.get("token")
@@ -16,17 +17,13 @@ def root():
     if not token:
         return redirect("login")
     
-    u_name, cl = "test", "class"
+    u_name, cl = get_user_by_token(token)
+    # u_name, cl = "test", "class"
 
     if request.method == "POST":
         req = request.form["req"]
-        port = req.split('\n')[1][5:].strip().split(":")[1]
-        res = get_response_for(port,req)
-        target_host_updated = {
-            "hostname" : "localhost",
-            "port": req.split('\n')[1][5:].strip().split(":")[1]
-        }
-        target_host.update(target_host_updated)
+        res = get_response_for(req)
+
         log(cl, u_name, req, res["raw"])
 
         return render_template("http.html", data={**target_host,
